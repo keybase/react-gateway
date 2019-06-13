@@ -22,7 +22,7 @@ class GatewayDest extends React.Component {
 export default (props) => (
     <GatewayContext.Consumer>
       {({ gatewayRegistry }) => (
-        <GatewayDestImpl gatewayRegistry={gatewayRegistry} {...props} />
+        <GatewayDest gatewayRegistry={gatewayRegistry} {...props} />
       )}
     </GatewayContext.Consumer>
   );

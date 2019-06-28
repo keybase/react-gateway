@@ -1,4 +1,4 @@
-export Gateway from './Gateway';
-export GatewayDest from './GatewayDest';
-export GatewayProvider from './GatewayProvider';
-export GatewayRegistry from './GatewayRegistry';
+export {default as Gateway} from './Gateway';
+export {default as GatewayDest} from './GatewayDest';
+export {default as GatewayProvider} from './GatewayProvider';
+export {default as GatewayRegistry} from './GatewayRegistry';
